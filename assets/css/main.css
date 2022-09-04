@@ -1,0 +1,89 @@
+/* Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.app {
+    margin: 20px auto;
+    width: 600px;
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.05);
+}
+
+.voc-input {
+    margin: 10px 24px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-name {
+    font-size: 1.6rem;
+}
+
+.word, .meaning {
+    flex: 1;
+    height: 30px;
+    margin-bottom: 8px;
+    padding-left: 8px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    border: 1px solid;
+    border-color: transparent transparent #ddd transparent;
+    outline: none;
+    caret-color: rgb(54, 131, 247);
+}
+
+.submit-button {
+    padding: 4px 8px;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #fff;
+    background: linear-gradient(rgb(54, 131, 247),rgb(54, 218, 247));
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.submit-button:active {
+    opacity: 0.8;
+}
+
+.voc-list {
+    width: 540px;
+    margin: 8px auto;
+}
+
+.voc-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.voc-table th, .voc-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.voc-table th {
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.voc-table td {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}

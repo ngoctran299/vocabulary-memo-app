@@ -87,3 +87,21 @@ html {
     font-size: 1.4rem;
     line-height: 1.8rem;
 }
+
+.highlight {
+    background-color: rgb(250, 164, 93);
+}
+
+.action-btn {
+    width: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.delete-btn, .highlight-btn {
+    margin-left: 3px;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
